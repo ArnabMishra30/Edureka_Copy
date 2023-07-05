@@ -1,0 +1,592 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    height: 3400px;
+    width: 1506px;
+    background-color: gray;
+}
+
+.ad{
+    height: 37px;
+    width: 1506px;
+    background-color: rgb(238, 171, 48);
+}
+
+#no{
+    padding: 9px;
+}
+
+.header{
+    height: 55px;
+    width: 1506px;
+    background-color: #0a73c9;
+}
+
+.header>#header1{
+    height: 55px;
+    width: 175px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding: 4px;
+    float: left;
+}
+
+.header>#header2{
+    height: 55px;
+    width: 750px;
+    background-color: #0a73c9;
+    float: left;
+} 
+
+.header>#header2>#Header{
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.header>#header3>.option>li{
+    list-style: none;
+    display: inline-block;
+    background-color: #0a73c9;
+    padding: 18px 19px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.header>#header3>.option>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.searchbutton{
+    height: 28px;
+    width: 480px;
+    position: absolute;
+    font-size: 17px;
+}
+
+.header .searchbutton{
+    text-align: left;
+    position: absolute;
+    cursor: pointer;
+}
+
+.menu{
+    height: 47px;
+    width: 1506px;
+    background-color: white;
+    float: left;
+}
+
+.menu>.browse>#Browse>a{
+    text-decoration: none;
+}
+
+.menu>.browse>#Browse>#submenu>li{
+    text-decoration: none;
+    color: white;
+}
+
+.browse{
+       width: 230px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+
+.menu>.browse>#Browse>#submenu>li>a{
+    text-decoration: none;
+    color: rgb(49, 46, 46);
+}
+
+.menu>.browse>#Browse>#submenu{
+    display: none;
+}
+
+.menu>.browse>#Browse:hover>#submenu{
+    display: block;
+}
+
+.Menu1{
+    height: 47px;
+    width: 1276px;
+    float: left;
+}
+
+.menu>.Menu1>.Menu>li{
+    list-style: none;
+    display: inline-block;
+    background-color: white;
+    padding: 14px 19px;
+}
+
+.menu>.Menu1>.Menu>li>a{
+    text-decoration: none;
+    color: rgb(63, 61, 61);
+    font-size: 16px;
+}
+
+.banner{
+    background-color: white;
+    box-shadow: 0 0 3px gray;
+}
+
+.banner a img{
+    height:100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    height: 60px;
+    width: 1486px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.treding{
+    height: 40px;
+    width: 1426px;
+    background-color: white;
+    padding-left: 80px;
+    padding-top: 3px;
+    font-size: 30px;
+}
+
+.menu_1{
+    height: 40px;
+    width: 1506px;
+    background-color: white;
+    overflow: auto;
+}
+.Menu2{text-align: center;}
+
+.Menu2>li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 38px;
+    padding-top: 10px;
+}
+
+.Menu2>li>a{
+    text-decoration: none;
+    color: rgb(92, 86, 86);
+}
+
+.course{
+    height: 550px;
+    width: 1506px;
+    background-color: white;
+}
+
+.course>.course1{
+    height: 550px;
+    width: 1080px;
+    background-color: white;
+    margin-left: 213px;
+}
+
+#my{
+    height: 275px;
+    width: 1506px;
+    background-color: red;
+}
+
+.course>.course1{
+    cursor: pointer;
+}
+
+.browse1{
+    height: 40px;
+    width: 1506px;
+    background-color: white;
+}
+
+.browse1>#browse2{
+    color: white;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(46, 46, 235);
+    text-align: center;
+    margin-left: 628px;
+    font-size: 28px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.explore{
+    height: 40px;
+    width: 1506px;
+    background-color: white;
+}
+
+.explore>#exp1{
+    height: 32px;
+    width: 320px;
+    background-color: white;
+    color: black;
+    margin-left: 593px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 8px;
+}
+
+.add{
+    height: 40px;
+    width: 1506px;
+    background-color: white;
+}
+
+.add>.add1{
+    height: 37px;
+    width: 1426px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 80px;
+    padding-top: 3px;
+}
+
+.carer{
+    height: 270px;
+    width: 1506px;
+    background-color: white;
+}
+
+.carer>.carer1{
+    height: 270px;
+    width: 1140px;
+    background-color: white;
+    margin-left: 183px;
+}
+
+.carer>.carer1>.carer11{
+    height: 270px;
+    width: 260px;
+    background-color: white;
+    margin-left: 43px;
+    float: left;
+    cursor: pointer;
+}
+
+.carer>.carer1>.carer12{
+    height: 270px;
+    width: 260px;
+    background-color: rgb(23, 199, 17);
+    margin-left: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.carer>.carer1>.carer13{
+    height: 270px;
+    width: 260px;
+    background-color: white;
+    margin-left: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.carer>.carer1>.carer14{
+    height: 270px;
+    width: 260px;
+    background-color: rgb(197, 25, 25);
+    margin-left: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.recent{
+    height: 190px;
+    width: 1506px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.recent .Recent{
+    height: 190px;
+    width: 950px;
+    background-color: white;
+    margin-left: 268px;
+}
+
+.recent .Recent .recent1{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px white;
+    transform: scale(1);
+    transition: ease-in-out 2s;
+    cursor: pointer;
+}
+
+.recent .Recent .recent1:hover{
+    transform: scale(0.25); 
+    transition: ease-in-out 2s;
+}
+
+.recent .Recent .recent2{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px white;
+    opacity: 0.3;
+    transition: ease-in-out 2s;
+    cursor: pointer;
+}
+
+.recent .Recent .recent2:hover{
+    opacity: 1;
+    transition: ease-in-out 2s;
+}
+
+.recent .Recent .recent3{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px white;
+    transform: rotate(0deg);
+    transition: ease-in-out 2s;
+    cursor: pointer;
+}
+
+.recent .Recent .recent3:hover{
+    transform: rotate(360deg);
+    transition: ease-in-out 2s;
+}
+
+.recent .Recent .recent4{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px white;
+    transform: translate(0px, 0px);
+    transition: ease-in-out 2s;
+    cursor: pointer;
+}
+
+.recent .Recent .recent4:hover{
+    transform: translate(100px, 100px);
+    transition: ease-in-out 2s;
+}
+
+.recent .Recent .recent5{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px white;
+    transform: scale(0.5) rotate(0deg);
+    transition: ease-in-out 2s;
+    cursor: pointer;
+}
+
+.recent .Recent .recent5:hover{
+    transform: scale(2) rotate(360deg);
+    transition: ease-in-out 2s;
+}
+
+.qut{
+    height: 350px;
+    width: 1506px;
+    background-color: white;
+}
+
+.qut>.qut1{
+    height: 50px;
+    width: 1316px;
+    font-size: 100px;
+    padding-left: 190px;
+    color: blue;
+}
+
+.qut>.qut2{
+    height: 100px;
+    width: 1506px;
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.qut>.qut3{
+    height: 30px;
+    width: 1506px;
+    text-align: center;
+    background-color: white;
+}
+
+.qut>.qut3>a{
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    font-size: 25px;
+}
+
+.qut>.qut4{
+    height: 170px;
+    width: 838px;
+    background-color: white;
+   padding-left: 668px;
+   cursor: pointer;
+}
+
+.banner1{
+    height: 250px;
+    width: 1506px;
+}
+
+.banner1>img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.banner1>#banner2{
+    height: 32px;
+    width: 194px;
+    font-size: 28px;
+    background-color: white;
+    font-weight: bolder;
+    position: relative;
+    bottom: 60px;
+    left: 1300px;
+    cursor: pointer;
+}
+
+.clients{
+    height: 150px;
+    width: 1506px;
+    background-color: white;
+}
+
+.clients>.client1{
+    height: 100px;
+    width: 1291px;
+    background-color: white;
+    margin-left: 215px;
+    padding-top: 25px;
+}
+
+.edu{
+    height: 530px;
+    width: 1506px;
+    background-color: white;
+}
+
+.edu>.EDU{
+    height: 55px;
+    width: 165px;
+    background-color: white;
+    color: blue;
+    font-size: 40px;
+    padding-left: 15px;
+    margin-left: 182px;
+}
+
+.edu>.edu1{
+    height: 475px;
+    width: 300px;
+    background-color: white;
+    margin-left: 182px;
+    float: left;
+}
+
+.edu>.edu1>.edu11{
+    padding-top: 10px;
+}
+
+.edu>.edu2{
+    height: 475px;
+    width: 330px;
+    background-color: white;
+    float: left;
+    margin-left: 60px;
+}
+
+.edu>.edu2>.edu12{
+    padding-top: 10px;
+}
+
+.edu>.edu3{
+    height: 475px;
+    width: 140px;
+    background-color: white;
+    float: left;
+    margin-left: 80px;
+}
+
+.edu>.edu3>.edu13{
+    padding-top: 10px;
+}
+
+.edu>.edu4{
+    height: 475px;
+    width: 165px;
+    background-color: white;
+    float: left;
+    margin-left: 70px;
+}
+
+.edu>.edu4>.edu14{
+    padding-top: 10px;
+}
+
+.edu>.edu4>.edu15{
+    height: 20px;
+    width: 165px;
+    background-color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.edu>.edu4>.edu16{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.edu>.edu4>.edu16>img{
+    height: 100%;
+    width: 100%;
+}
+
+.edu>.edu4>.edu17{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.edu>.edu4>.edu17>img{
+    height: 100%;
+    width: 100%;
+}
+
+.cata{
+    height: 340px;
+    width: 1506px;
+    background-color: white;
+}
+
+.footer{
+    height: 61px;
+    width: 1506px;
+    background-color: antiquewhite;
+}

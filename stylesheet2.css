@@ -1,0 +1,651 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container>.cnt1{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px white;
+
+    position: relative;
+    bottom: 40px;
+    margin-left: 170px;
+    background-color: white;
+}
+
+.container>.cnt1>#eng{
+    padding: 20px;
+}
+
+.container>.cnt1>#eng1{
+    padding-top: 20px;
+    color: rgb(56, 56, 230);
+}
+
+.container>.cnt2{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px white;
+
+    position: relative;
+    bottom: 40px;
+    margin-left: 130px;
+    background-color: white;
+}
+
+.container>.cnt2>#eng2{
+    padding: 20px;
+}
+
+.container>.cnt2>#eng3{
+    padding-top: 20px;
+    color: rgb(56, 56, 230);
+}
+
+.container>.cnt3{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px white;
+
+    position: relative;
+    bottom: 40px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+.container>.cnt3>#eng4{
+    padding: 20px;
+}
+
+.container>.cnt3>#eng5{
+    padding-top: 20px;
+    color: rgb(56, 56, 230);
+}
+
+ .course>.course1>.course11{
+    height: 270px;
+    width: 260px;
+    background-color: bisque;
+    float: left;
+    margin-left: 12px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.course>.course1>.course12{
+    height: 270px;
+    width: 260px;
+    background-color: rgb(241, 145, 28);
+    float: left;
+    margin-left: 5px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.course>.course1>.course13{
+    height: 270px;
+    width: 260px;
+    background-color: rgb(255, 17, 0);
+    float: left;
+    margin-left: 5px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.course>.course1>.course14{
+    height: 270px;
+    width: 260px;
+    background-color: rgb(0, 255, 76);
+    float: left;
+    margin-left: 5px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.course>.course1>.course15{
+    height: 270px;
+    width: 260px;
+    background-color: rgb(47, 0, 255);
+    float: left;
+    margin-left: 12px;
+    margin-top: 9px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.course>.course1>.course16{
+    height: 270px;
+    width: 260px;
+    background-color: rgb(102, 165, 86);
+    float: left;
+    margin-left: 5px;
+    margin-top: 9px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.course>.course1>.course17{
+    height: 270px;
+    width: 260px;
+    background-color: rgb(255, 0, 221);
+    float: left;
+    margin-left: 5px;
+    margin-top: 9px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.course>.course1>.course18{
+    height: 270px;
+    width: 260px;
+    background-color: rgb(243, 239, 12);
+    float: left;
+    margin-left: 5px;
+    margin-top: 9px;
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.course>.course1>.course11>.course111{
+    height: 30px;
+    width: 260px;
+    background-color: goldenrod;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.course>.course1>.course11>.course112{
+    height: 90px;
+    width: 260px;
+    background-color: rgb(18, 167, 167);
+}
+
+.course>.course1>.course11>.course113{
+    height: 85px;
+    width: 260px;
+    background-color: white;
+}
+
+.course>.course1>.course11>.course112{
+    height: 84px;
+    width: 260px;
+    background-color: rgb(89, 89, 196);
+    color: white;
+    text-align: end;
+    font-size: 18px;
+}
+
+.course>.course1>.course11>.course112>#a1{
+    color: white;
+    text-align: end;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.course>.course1>.course11>.course114{
+    height: 65px;
+    width: 260px;
+}
+
+.course>.course1>.course11>.course113{
+    text-align: center;
+}
+
+.course>.course1>.course11>.course113>#list{
+    text-align: left;
+    padding-left: 18px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.course>.course1>.course11>.course114{
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.course>.course1>.course12>.course121{
+    height: 114px;
+    width: 260px;
+    background-color: rgb(162, 106, 214);
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 18px;
+}
+
+.course>.course1>.course12>.course121>#b2{
+    padding-left: 98px;
+}
+
+.course>.course1>.course12>.course121>#b1{
+    height: 50px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    bottom: 18px;
+    right: 780px;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    opacity: 0.2px;
+}
+
+.course>.course1>.course12>.course122{
+    height: 156px;
+    width: 260px;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+}
+
+.course>.course1>.course12>.course122>.review{
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 8px;
+    color: rgb(204, 189, 189);
+}
+
+.course>.course1>.course13>.course131{
+    height: 132px;
+    width: 260px;
+    background-color: rgb(118, 118, 247);
+    color: white;
+}
+
+.course>.course1>.course13>.course131>#c1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 66px;
+    padding-top: 12px;
+}
+
+.course>.course1>.course13>.course132{
+    height: 138px;
+    width: 260px;
+    background-color: white;
+}
+
+.course>.course1>.course13>.course132>#c2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    padding-left: 15px;
+    padding-top: 6px;
+}
+
+.course>.course1>.course13>.course132>#c3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 10px;
+    padding-left: 18px;
+}
+
+
+.course>.course1>.course14>.course141{
+    height: 132px;
+    width: 260px;
+    background-color: rgb(162, 106, 214);
+}
+
+.course>.course1>.course14>.course141>#d1{
+    color: white;
+    font-size: 23px;
+    padding-top: 21px;
+    padding-left: 92px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.course>.course1>.course14>.course142{
+    height: 138px;
+    width: 260px;
+    background-color: white;
+}
+
+.course>.course1>.course14>.course142>#d2{
+    font-family: Oswald, sans-serif;
+    font-size: 22px;
+    padding-left: 18px;
+    padding-top: 6px;
+}
+
+.course>.course1>.course14>.course142>#d3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 10px;
+    padding-left: 18px;
+}
+
+.course>.course1>.course15>.course151{
+    height: 132px;
+    width: 260px;
+    background-color: rgb(11, 230, 230);
+    color: white;
+}
+
+
+.course>.course1>.course15>.course151>#e1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 98px;
+    padding-top: 22px;
+}
+
+.course>.course1>.course15>.course152{
+   height: 138px;
+   width: 260px;
+   background-color: white;
+}
+
+.course>.course1>.course15>.course152>#e2{
+    font-family: Oswald, sans-serif;
+    padding-left: 20px;
+    padding-top: 8px;
+    font-size: 21px;
+}
+
+.course>.course1>.course15>.course152>#e3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.course>.course1>.course16>.course161{
+    height: 132px;
+    width: 260px;
+    background-color:  rgb(4, 153, 153);
+}
+
+.course>.course1>.course16>.course162{
+    height: 138px;
+    width: 260px;
+    background-color: white;
+}
+
+.course>.course1>.course16>.course161>#f1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    padding-left: 80px;
+    padding-top: 28px;
+}
+
+.course>.course1>.course16>.course162>#f2{
+    font-family: Oswald, sans-serif;
+    padding-left: 18px;
+    padding-top: 9px;
+    font-size: 22px;
+}
+
+.course>.course1>.course16>.course162>#f3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.course>.course1>.course17>.course171{
+    height: 132px;
+    width: 260px;
+    background-color: rgb(197, 82, 101);
+}
+
+.course>.course1>.course17>.course172{
+    height: 138px;
+    width: 260px;
+    background-color: white;
+}
+
+.course>.course1>.course17>.course171>#g1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    padding-left: 84px;
+    padding-top: 28px;
+}
+
+.course>.course1>.course17>.course172>#g2{
+    font-family: Oswald, sans-serif;
+    padding-left: 18px;
+    padding-top: 9px;
+    font-size: 22px;
+}
+
+.course>.course1>.course17>.course172>#g3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.course>.course1>.course18>.course181{
+    height: 132px;
+    width: 260px;
+    background-color: rgb(228, 8, 162);
+}
+
+.course>.course1>.course18>.course182{
+    height: 138px;
+    width: 260px;
+    background-color: white;
+}
+
+.course>.course1>.course18>.course181>#h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    padding-left: 105px;
+    padding-top: 28px;
+}
+
+.course>.course1>.course18>.course182>#h2{
+    font-family: Oswald, sans-serif;
+    padding-left: 18px;
+    padding-top: 9px;
+    font-size: 22px;
+}
+
+.course>.course1>.course18>.course182>#h3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.carer>.carer1>.carer11>.carer111{
+    height: 132px;
+    width: 260px;
+}
+
+.carer>.carer1>.carer11>.carer112{
+    height: 138px;
+    width: 260px;
+}
+
+.carer>.carer1>.carer11>.carer111>#A1{
+    height: 104px;
+    width: 198px;
+    background-color: rgb(37, 180, 180);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 62px;
+    padding-top: 28px;
+}
+
+.carer>.carer1>.carer11>.carer112>#A2{
+   font-family: Oswald, sans-serif;
+   padding-left: 6px;
+    padding-top: 9px;
+    font-size: 20px;
+}
+
+.carer>.carer1>.carer11>.carer112>#A3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.carer>.carer1>.carer12>.carer121{
+    height: 132px;
+    width: 260px;
+    background-color: rgb(248, 113, 135);
+}
+
+.carer>.carer1>.carer12>.carer122{
+    height: 138px;
+    width: 260px;
+    background-color: white;
+}
+
+.carer>.carer1>.carer12>.carer121>#B1{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    padding-left: 35px;
+    padding-top: 45px;
+}
+
+.carer>.carer1>.carer12>.carer122>#B2{
+    font-family: Oswald, sans-serif;
+    padding-left: 18px;
+    padding-top: 6px;
+    font-size: 22px;
+}
+
+.carer>.carer1>.carer12>.carer122>#B3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+.carer>.carer1>.carer13>.carer131{
+    height: 132px;
+    width: 260px;
+    background-color: rgb(255, 0, 13);
+}
+
+.carer>.carer1>.carer13>.carer132{
+    height: 138px;
+    width: 260px;
+    background-color: white;
+}
+
+.carer>.carer1>.carer13>.carer131>#C1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    padding-left: 115px;
+    padding-top: 14px;
+}
+
+.carer>.carer1>.carer13>.carer132>#C2{
+    font-family: Oswald, sans-serif;
+    padding-left:25px;
+    padding-top: 6px;
+    font-size: 23px;
+}
+
+.carer>.carer1>.carer13>.carer132>#C3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+.carer>.carer1>.carer14>.carer141{
+    height: 132px;
+    width: 260px;
+    background-color: rgb(67, 67, 241);
+}
+
+.carer>.carer1>.carer14>.carer142{
+    height: 138px;
+    width: 260px;
+    background-color: white;
+}
+
+.carer>.carer1>.carer14>.carer141>#D1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    padding-left: 85px;
+    padding-top: 25px;
+}
+
+.carer>.carer1>.carer14>.carer142>#D2{
+    font-family: Oswald, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.carer>.carer1>.carer14>.carer142>#D3{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(180, 177, 177);
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.clients>.client1>.cli{
+    height: 100px;
+    width: 95px;
+    background-color: white;
+    float: left;
+}
+
+.clients>.client1>.cli>#CLI{
+    padding-top: 32px;
+}
+
+.clients>.client1 .cli1{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.clients>.client1 .cli1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.cata>.cata1{
+    height: 20px;
+    padding-left: 175px;
+    padding-top: 34px;
+}
+
+.cata>.cata2{
+    height: 120px;
+    width: 1031px;
+    padding-left: 180px;
+    padding-top: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.cata>.cata3{
+    height: 100px;
+    width: 1256px;
+    background-color: white;
+    padding-left: 142px;
+}
